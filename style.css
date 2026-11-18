@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  display: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+.hero-section {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh auto;
+  width: fit-content;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.header-prf img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.header-prf h2 {
+  margin-top: 20px;
+  letter-spacing: 1.6px;
+  font-weight: 500;
+}
+
+.header-prf span {
+  display: inline-block;
+  margin-top: 10px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+.header-prf p {
+  margin: 30px 0;
+  font-weight: 300;
+}
+
+.prf-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.prf-grid a {
+  text-decoration: none;
+  color: #fff;
+  background-color: hsl(0, 0%, 20%);
+  padding: 15px 120px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.prf-grid a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
